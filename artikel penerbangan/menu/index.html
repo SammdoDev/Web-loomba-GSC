@@ -14,6 +14,7 @@
       crossorigin="anonymous"
     ></script>
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.0/gsap.min.js"></script>
   </head>
   <body>
     <header class="header">
@@ -197,6 +198,43 @@
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
       AOS.init();
+    </script>
+     <script>
+      window.addEventListener("load", function () {
+
+        gsap.from("nav", {
+          duration: 0.5,
+          opacity: 0,
+          ease: "power2.out",
+          scale: 0,
+          x: -1000
+        });
+
+        gsap.from(".subtitle", {
+          duration: 0.5,
+          opacity: 0,
+          ease: "power2.out",
+          scale: 0,
+          y: -100,
+          delay: 0.4
+        });
+
+        gsap.from(".main-title", {
+          duration: 0.5,
+          opacity: 0,
+          ease: "power2.out",
+          scale: 0,
+          delay: 0.8
+        });
+        gsap.from(".description", {
+          duration: 0.5,
+          opacity: 0,
+          ease: "power2.out",
+          scale: 0,
+          delay: 1
+        });
+
+      });
     </script>
   </body>
 </html>

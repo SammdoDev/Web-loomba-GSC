@@ -58,4 +58,3 @@ window.addEventListener("load", function() {
         delay: 0.8
     });
   });
-  
