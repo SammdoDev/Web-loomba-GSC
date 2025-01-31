@@ -143,7 +143,7 @@
         <div class="menu-grid">
           <a data-aos="fade-down-right" href="/artikel penerbangan/menu/index.html" class="card-menu">
             <h2>Penerbangan</h2>
-            <img src="/artikel hotel/images/airplane.png" alt="Hotel Icon" />
+            <img src="/artikel restauran/images/airplane.png" alt="Hotel Icon" />
           </a>
           <a data-aos="zoom-in" href="/artikel hotel/menu/index.html" class="card-menu">
             <h2>Hotel</h2>
@@ -151,93 +151,80 @@
           </a>
           <div data-aos="fade-down-left" class="card-menu">
             <h2>Rental Mobil</h2>
-            <img src="/artikel hotel/images/car.png" alt="Hotel Icon" />
+            <img src="/artikel restauran/images/car.png" alt="Hotel Icon" />
           </div>
           <div data-aos="fade-up-right" class="card-menu">
             <h2>Atraksi</h2>
-            <img src="/artikel hotel/images/attraction.png" alt="Hotel Icon" />
+            <img src="/artikel restauran/images/attraction.png" alt="Hotel Icon" />
           </div>
           <div data-aos="zoom-in" class="card-menu">
             <h2>Paket Wisata</h2>
-            <img src="/artikel hotel/images/tour.png" alt="Hotel Icon" />
+            <img src="/artikel restauran/images/tour.png" alt="Hotel Icon" />
           </div>
           <div data-aos="fade-up-left" class="card-menu">
             <h2>Petualangan</h2>
-            <img src="/artikel hotel/images/adventure.png" alt="Hotel Icon" />
+            <img src="/artikel restauran/images/adventure.png" alt="Hotel Icon" />
           </div>
         </div>
       </div>
     </div>
-    <footer data-aos="fade-up">
-      <div class="container">
+    <footer class="footer-section">
+      <div class="footer-container">
         <div class="footer-content">
-          <h3>Contact Us</h3>
-          <p>Email: info@example.com</p>
-          <p>Phone: +121 56556 565556</p>
-          <p>Address: Your Address, 123 Street</p>
+          <div class="footer-left">
+              <div class="logo-footer">
+                  <a href="index.html">IndoTRIP</a>
+              </div>
+              <div class="description-footer">
+                  Nikmati perjalanan yang nyaman dan penuh petualangan ke destinasi impian. Dari penerbangan, restoran, hingga pengalaman wisata terbaik, kami hadir untuk memenuhi kebutuhan perjalananmu dengan layanan berkualitas dan terpercaya.
+              </div>
+          </div>
+  
+          <div class="footer-mid">
+              <div class="office">
+                  <div class="title-footer">Office</div>
+                  <p>Jl. Raya Merdeka No. 123, Kel. Suka Maju, Kec. Sejahtera,</p>
+                  <a href="mailto:indotriptravel@gmail.com">indotriptravel@gmail.com</a>
+                  <h4>+62 109 102 129 38</h4>
+              </div>
+  
+              <div class="links">
+                  <div class="title-footer">Links</div>
+                  <div class="all-links">
+                    <a href="/landing-page/index.html">Home</a>
+                    <a href="/artikel destination/index.html">Destination</a>
+                    <a href="/about us/index.html">About</a>
+                    <a href="#">Contact</a>
+                  </div>
+              </div>
+          </div>
+  
+          <div class="footer-right">
+              <div class="title-footer">Feedback</div>
+              <div class="message">
+                  <i class="fa-regular fa-envelope"></i>
+                  <input type="text" placeholder="Saran dan Pesan">
+                  <i class="fa-solid fa-arrow-right"></i>
+              </div>
+  
+              <div class="footer-sci">
+                  <div class="sci-icon">
+                      <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                      <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                      <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                      <a href="#"><i class="fa-brands fa-pinterest"></i></a>
+                  </div>
+              </div>
+          </div>
         </div>
-        <div class="footer-content">
-          <h3>Follow Us</h3>
-          <ul class="social-icons">
-            <li>
-              <a href="#"><i class="fab fa-facebook"></i></a>
-            </li>
-            <li>
-              <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
-            </li>
-            <li>
-              <a href="#"><i class="fab fa-instagram"></i></a>
-            </li>
-            <li>
-              <a href="#"><i class="fab fa-linkedin"></i></a>
-            </li>
-          </ul>
-        </div>
+          <div class="line-footer"></div>
+          <div class="copyright">© 2024 IndoTRIP - All Rights Reserved</div>
       </div>
-      <div class="bottom-bar">
-        <p>&copy; 2024 Your Company. All rights reserved.</p>
-      </div>
-    </footer>
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script>
-      AOS.init();
-    </script>
-         <script>
-          window.addEventListener("load", function () {
-    
-            gsap.from("nav", {
-              duration: 0.5,
-              opacity: 0,
-              ease: "power2.out",
-              scale: 0,
-              x: -1000
-            });
-    
-            gsap.from(".subtitle", {
-              duration: 0.5,
-              opacity: 0,
-              ease: "power2.out",
-              scale: 0,
-              y: -100,
-              delay: 0.4
-            });
-    
-            gsap.from(".main-title", {
-              duration: 0.5,
-              opacity: 0,
-              ease: "power2.out",
-              scale: 0,
-              delay: 0.8
-            });
-            gsap.from(".description", {
-              duration: 0.5,
-              opacity: 0,
-              ease: "power2.out",
-              scale: 0,
-              delay: 1
-            });
-    
-          });
-        </script>
+  </footer>
+  <script src="main.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+          <script>
+            AOS.init();
+          </script> 
   </body>
 </html>

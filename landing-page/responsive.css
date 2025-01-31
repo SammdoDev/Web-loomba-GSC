@@ -203,4 +203,9 @@
   .line-partner{
     width: 300px;
   }
+
+  .footer-content{
+    display: flex;
+    flex-direction: column;
+  }
 }
