@@ -1,11 +1,18 @@
 // search menu
-const searchIcon = document.querySelector('.search-icon');
-const navContainer = document.querySelector('.nav-container');
+document.addEventListener("DOMContentLoaded", function () {
+  const burger = document.querySelector(".burger");
+  const navContainer = document.querySelector(".nav-container"); // Menambahkan selektor untuk nav-container
 
-searchIcon.addEventListener('click', () => {
-  searchIcon.classList.toggle('active');
-  navContainer.classList.toggle('active');
+  burger.addEventListener("click", function () {
+    // Toggle 'active' class pada burger
+    this.classList.toggle("active");
+
+    // Toggle 'active' class pada nav-container
+    navContainer.classList.toggle("active");
+  });
 });
+
+
 
 const guestInput = document.getElementById("guest");
 

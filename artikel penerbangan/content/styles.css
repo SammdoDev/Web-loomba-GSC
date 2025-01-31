@@ -15,6 +15,14 @@ a{
   color: #000;
 }
 
+.caraousel-button {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+
 .header {
   position: relative;
   width: auto;
