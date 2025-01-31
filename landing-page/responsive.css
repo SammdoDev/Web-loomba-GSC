@@ -54,16 +54,16 @@
   top: 55px;
   left: 50%;
   transform: translateX(-50%);
-  width: 100%; /* Pastikan elemen mengambil lebar penuh layar */
-  max-width: 320px; /* Tetapkan max-width agar elemen tidak terlalu lebar */
+  width: 100%;
+  max-width: 320px;
   height: auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   z-index: 1000;
-  padding: 15px; /* Sesuaikan padding */
-  box-sizing: border-box; /* Pastikan padding dimasukkan dalam lebar dan tinggi */
+  padding: 15px;
+  box-sizing: border-box;
 }
 
 @media (max-width: 900px) {
@@ -130,16 +130,6 @@
     width: 100%;
     height: auto;
     padding: 20px;
-  }
-
-  .header-destination {
-    align-items: flex-start;
-    flex-direction: column;
-  }
-
-  .header-destination-1 {
-    display: flex;
-    flex-direction: row;
   }
 
   .nav-content input .going {

@@ -13,6 +13,7 @@ html {
 
 a{
   text-decoration: none;
+  color: #fff;
 }
 
 .header {
@@ -327,6 +328,34 @@ a {
   padding: 20px 0;
 }
 
+.recommendations-scroll {
+  display: flex;
+  justify-content: flex-start;
+  gap: 20px;
+  width: 100%;
+  padding: 10px;
+  overflow-x: auto;
+}
+
+.recommendations-scroll {
+  scrollbar-width: thin;
+  scrollbar-color: #007bff #f0f0f0;
+}
+
+.recommendations-scroll::-webkit-scrollbar {
+  height: 8px;
+}
+
+.recommendations-scroll::-webkit-scrollbar-thumb {
+  background-color: #007bff;
+  border-radius: 10px;
+}
+
+.recommendations-scroll::-webkit-scrollbar-track {
+  background-color: #f0f0f0;
+  border-radius: 10px;
+}
+
 .card-recommendations {
   background-color: #f9f9f9;
   border-radius: 10px;
@@ -388,8 +417,18 @@ a {
     2px 4px 8px rgba(0, 0, 0, 0.3);
 }
 
-::-webkit-scrollbar {
-  display: none;
+.button-detail::-webkit-scrollbar {
+  height: 8px;
+}
+
+.button-detail::-webkit-scrollbar-thumb {
+  background-color: #007bff;
+  border-radius: 10px;
+}
+
+.promo::-webkit-scrollbar-track {
+  background-color: #f0f0f0;
+  border-radius: 10px;
 }
 /* Footer Container */
 .footer-section {
@@ -553,10 +592,6 @@ a {
     grid-template-columns: repeat(2, 1fr);
   }
 
-  .recommendations-scroll {
-    gap: 20px;
-  }
-
   .footer-content {
     width: 50%;
   }
@@ -571,9 +606,6 @@ a {
     grid-template-columns: 1fr;
   }
 
-  .recommendations-scroll {
-    gap: 10px;
-  }
 }
 @media screen and (max-width: 425px) {
   .subtitle {

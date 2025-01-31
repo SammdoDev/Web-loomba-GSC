@@ -9,7 +9,6 @@ html {
   height: auto;
   width: 100%;
   overflow-x: hidden;
-  background: linear-gradient(to bottom, #F3F9FF, #b5e3ff);
 }
 
 a{
@@ -171,11 +170,31 @@ a{
 
 .more-details-scroll {
   display: flex;
+  justify-content: flex-start;
+  gap: 20px;
+  width: 100%;
+  padding: 10px;
   overflow-x: auto;
-  gap: 30px;
-  padding: 20px 0;
 }
 
+.more-details-scroll {
+  scrollbar-width: thin;
+  scrollbar-color: #007bff #f0f0f0;
+}
+
+.more-details-scroll::-webkit-scrollbar {
+  height: 8px;
+}
+
+.more-details-scroll::-webkit-scrollbar-thumb {
+  background-color: #007bff;
+  border-radius: 10px;
+}
+
+.more-details-scroll::-webkit-scrollbar-track {
+  background-color: #f0f0f0;
+  border-radius: 10px;
+}
 .card-more-details {
   background-color: #f9f9f9;
   border-radius: 10px;
