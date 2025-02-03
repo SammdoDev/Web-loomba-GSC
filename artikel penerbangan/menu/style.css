@@ -447,6 +447,11 @@ a{
     grid-template-columns: repeat(2, 1fr);
   }
 
+  .footer-content{
+    display: flex;
+    flex-direction: column;
+  }
+
 }
 
 @media screen and (max-width: 425px) {
@@ -481,10 +486,7 @@ a{
   .menu-grid {
     grid-template-columns: 1fr;
   }
-  .footer-content{
-    display: flex;
-    flex-direction: column;
-  }
+
 }
 @media screen and (max-width: 320px) {
   .navbar {

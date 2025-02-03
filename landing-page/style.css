@@ -72,14 +72,17 @@ header {
   transform: rotate(45deg) translate(-8px, -8px);
 }
 
-nav {
+.nav-container.active {
+  display: flex !important;
+}
+
+.nav-wrapper {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
   width: 100%;
-  height: auto;
-  overflow: hidden;
+  overflow-x: hidden;
 }
 
 .logo {
@@ -111,6 +114,7 @@ nav {
   backdrop-filter: blur(90px);
   border-radius: 40px;
   padding: 0px 10px;
+  margin: 0 auto; 
 }
 
 .nav-container-1 {
@@ -127,9 +131,14 @@ nav {
   justify-content: center;
   align-items: center;
   gap: 10px;
-  position: relative;
-  right: 30px;
 }
+
+.nav-container-2,
+.search-content {
+  position: static;
+  right: 0;
+}
+
 
 .nav-content {
   display: flex;
@@ -182,8 +191,6 @@ input[type="number"]::-webkit-outer-spin-button {
   align-items: center;
   justify-content: center;
   border-radius: 50%;
-  position: relative;
-  right: 52px;
 }
 
 input[type="date"] {
@@ -193,7 +200,6 @@ input[type="date"] {
 .nav-right {
   display: flex;
   justify-content: space-between;
-  align-items: flex-end;
   gap: 10px;
 }
 
@@ -645,7 +651,6 @@ input[type="date"] {
   width: 100%;
   height: auto;
   max-width: 500px;
-  justify-content: flex-end;
   border-radius: 50%;
   aspect-ratio: 1 / 1;
   margin-top: 20px;
