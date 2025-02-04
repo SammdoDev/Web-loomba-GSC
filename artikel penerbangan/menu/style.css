@@ -288,7 +288,7 @@ a{
 }
 
 .footer-section {
-  background: linear-gradient(to top, #F3F9FF, #b5e3ff);
+  background: linear-gradient(to bottom, #F3F9FF, #b5e3ff);
   text-align: center;
   height: auto;
   width: 100%;
@@ -307,12 +307,13 @@ a{
   height: auto;
   width: 100%;
   padding: 2rem 3rem;
-  border-radius: 100px 0 0 0;
+  border-radius: 200px 0 0 0;
 }
 
 .footer-content{
   display: flex;
   flex-direction: row;
+  margin: 0 3rem;
 }
 
 .footer-left,

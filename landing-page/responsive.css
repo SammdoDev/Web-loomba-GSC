@@ -49,6 +49,15 @@
   left: 20px;
 }
 
+@media (max-width: 1200px) {
+.promo-scroll {
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 15px;
+  overflow-x: auto;
+}
+}
+
 @media (max-width: 900px) {
   .nav-container {
     display: none;
@@ -92,7 +101,7 @@
   }
 
   .logo {
-    position: fixed;
+    position: absolute;
     top: 3.5%;
     left: 0;
     right: 0;
